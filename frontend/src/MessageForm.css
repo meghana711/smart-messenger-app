@@ -1,0 +1,73 @@
+/* src/MessageForm.css */
+body {
+  margin: 0;
+  background: linear-gradient(to right, #8ec5fc, #e0c3fc);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.email-form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+}
+
+.email-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.email-form textarea,
+.email-form input[type="email"],
+.email-form input[type="file"] {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.email-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.email-form button:hover {
+  background-color: #43a047;
+}
+
+.subject-line {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #555;
+}
+
+.pdf-link {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.pdf-link:hover {
+  text-decoration: underline;
+}
